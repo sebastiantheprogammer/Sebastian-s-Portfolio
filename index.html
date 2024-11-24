@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Sebastian's Projects</title>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <img src="SI_logo_updated.svg" alt="Logo">
+        </div>        
+        <div class="links">
+            <a href="#about" class="active">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact-card">Contact</a>
+        </div>
+    </nav>
+
+    <div class="about" id="about">
+        <div class="left">
+            <h3> Full-Stack Software Developer</h3>
+            <div class="info">
+                <div class="social-icons">
+                    <a href="https://github.com/sebastiantheprogammer" target="_blank" class="social-link">
+                        <box-icon type="logo" name="github" color="#BDBDBD" size="lg"></box-icon>
+                    </a>
+                    <a href="https://www.instagram.com/sebastian_007._/" target="_blank" class="social-link">
+                        <box-icon type="logo" name="instagram" color="#BDBDBD" size="lg"></box-icon>
+                    </a>
+                </div>
+                <h2>Sebastian Ingram</h2>
+                <p>I'm Working On Becoming A Full-Stack Software Developer. Check Out My Projects!</p>
+                <div class="buttons">
+                    <button class="hire" onclick="location.href='mailto:your-email@example.com?subject=Contact Request&body=Hello Sebastian,'">
+                        Contact Me <i class="fas fa-plus"></i>
+                    </button>                    
+                    <button class="email" onclick="copyEmail('sebastian@ingramsideas.com')">
+                        Copy Email <i class="far fa-copy"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <img src="Flowers pfp.jpg">
+        </div>
+    </div>
+
+    <div class="works" id="projects">
+        <div class="left">
+            <h3><i class="fas fa-circle"></i> Recent Projects</h3>
+            <div class="works-list">
+                <div class="item">
+                    <div class="work-info">
+                        <a href="https://github.com/sebastiantheprogammer/TextMorphFx" target="_blank">
+                            <h5 class="active">TextMorphFx</h5>
+                        </a>
+                        <p>Nov 4-10 2024 - Last Week</p>
+                    </div>                    
+                    <p>Generator</p>
+                </div>
+                <div class="item">
+                    <div class="work-info">
+                        <h5>Meal Planner</h5>
+                        <p>Soon - Check Github</p>
+                    </div>
+                    <p>Api-Prgm</p>
+                </div>
+                <div class="item">
+                    <div class="work-info">
+                        <h5>TravelPacker</h5>
+                        <p>Soon - Nov 27- Dec 1 2024</p>
+                    </div>
+                    <p>Utility-App</p>
+                </div>
+                <div class="item">
+                    <div class="work-info">
+                        <h5>Collaboration Board</h5>
+                        <p>Dec 2-7 Soon</p>
+                    </div>
+                    <p>Website</p>
+                </div>
+                <div class="item">
+                    <div class="work-info">
+                        <h5>MoodMeal AI</h5>
+                        <p>Dec-Jan 2 Month Project</p>
+                    </div>
+                    <p>Face-Regoninition</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="item">
+                <a href="#">Becoming A Software Developer</a>
+                <p>As you read this im trying to do atleast 3 projects a month and learn as many coding lanuages as I can while still working on a project a week If want to keep up with my progress check my github to see what project I am working on .
+                </p>
+            </div>
+            <div class="item">
+                <a href="#">TextMorphFx</a>
+                <p>The Text Reveal Effect Generator lets users create dynamic glitch-style text animations with customizable fonts, speeds, and styles. Features include font upload, real-time previews, and GIF export.</p>
+            </div>
+            <div class="item">
+                <a href="#">Real-Time Collaboration Board - Soon</a>
+                <p>A shared board where users can draw, write notes, or upload files in real-time. Teams can brainstorm, plan, and work together seamlessly with live updates and multiple user cursors. Perfect for remote teamwork or creative projects.</p>
+            </div>
+            <div class="item">
+                <a href="#">MoodMeal AI</a>
+                <p>A dynamic app that generates meal plans and recipes based on the user's mood, dietary preferences, and current inventory of ingredients. The app also integrates real-time grocery delivery and calorie tracking.
+
+                </p>
+            </div>
+            <div class="item">
+                <a href="#">SkillLink AI</a>
+                <p>An AI-powered platform that matches people with micro-learning opportunities, real-world projects, and mentors in real-time to develop job-ready skills tailored to their career goals or passions.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact-card" id="contact-card">
+        <div class="item">
+            <h3>Contact</h3>
+            <p class="email" onclick="copyEmail('contact@sebastian.com')">contact@sebastian.com</p>
+            <div class="social-links">
+                <a href="mailto:contact@sebastian.com" target="_blank" class="social-link">
+                    <box-icon type="solid" name="envelope" color="#BDBDBD" size="lg"></box-icon>
+                </a>
+                <a href="https://www.instagram.com/sebastian_007._/" target="_blank" class="social-link">
+                    <box-icon type="logo" name="instagram" color="#BDBDBD" size="lg"></box-icon>
+                </a>
+            </div>
+        </div>
+    </div>    
+    
+    
+    <footer>
+        <a href="#">Socials</a>
+        <div class="socials">
+            <a href="https://github.com/sebastiantheprogammer" target="_blank">
+                <box-icon type="logo" name="github" color="#BDBDBD" size="lg"></box-icon>
+            </a>
+            <a href="https://www.instagram.com/sebastian_007._/" target="_blank">
+                <box-icon type="logo" name="instagram" color="#BDBDBD" size="lg"></box-icon>
+            </a>
+            <a href="https://codepen.io/Sebastian-Ingram" target="_blank">
+                <box-icon type="logo" name="codepen" color="#BDBDBD" size="lg"></box-icon>
+            </a>
+        </div>
+    </footer>
+    
+
+    <script>
+        function copyEmail(email) {
+            navigator.clipboard.writeText(email).then(() => {
+                alert('Email copied to clipboard: ' + email);
+            }).catch(err => {
+                console.error('Failed to copy email: ', err);
+            });
+        }
+
+        // Smooth scrolling for Projects link
+        document.querySelector('a[href="#projects"]').addEventListener('click', function (e) {
+            e.preventDefault();
+            document.querySelector('#projects').scrollIntoView({ behavior: 'smooth' });
+        });
+    </script>
+</body>
+
+</html>
