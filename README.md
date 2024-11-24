@@ -1,1 +1,3 @@
 # Sebastian-s-Portfolio
+
+Sebastian's portfolio is a sleek and modern showcase of his journey as a full-stack software developer, built with inspiration from the ASMRProg YouTube channel's signature design aesthetics. This portfolio seamlessly blends clean, professional design with the smooth, calming feel that ASMRProg is known for, offering subtle animations and intuitive navigation. It highlights Sebastian’s unique projects, such as dynamic web applications and innovative tools, alongside easy access to his GitHub, Instagram, and contact information. Whether you're exploring his creative solutions or inspired by ASMRProg’s portfolio templates, this site stands out as a refined yet engaging representation of his work and style.
